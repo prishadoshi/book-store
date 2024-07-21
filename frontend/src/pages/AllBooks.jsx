@@ -22,8 +22,8 @@ const AllBooks = () => {
       {" "}
       <h1 className="text-3xl text-yellow-100">All Books</h1>
       {!Data && (
-        <div className="flex flex-items justify-center my-8">
-          <Loader />{" "}
+        <div className="w-full h-screen flex items-center justify-center">
+          <Loader />
         </div>
       )}
       <div className="my-8 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-4">
